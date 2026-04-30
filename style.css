@@ -245,7 +245,7 @@ border-radius:15px;
 .cert-card:hover{transform:scale(1.05)}
 
 /* Project Title Styling */
-.project-info h2 {
+.projects-info h2 {
     font-size: 28px;
     font-weight: 800;
     margin-bottom: 18px;
@@ -273,7 +273,7 @@ border-radius:15px;
 }
 
 /* Accent underline */
-.project-info h2::after {
+.projects-info h2::after {
     content: "";
     display: block;
     width: 70px;
