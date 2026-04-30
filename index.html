@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shreyanka | Creative Developer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+</head>
+
+<body>
+
+<!-- Loading Screen -->
+<div id="loader">
+    <h1>Loading Portfolio...</h1>
+</div>
+
+<!-- Scroll Progress -->
+<div id="progress-bar"></div>
+
+<!-- Custom Cursor -->
+<div class="cursor"></div>
+
+<!-- Particles -->
+<div id="particles-js"></div>
+
+<nav>
+    <h2 class="logo">Shreyanka B A</h2>
+    <ul>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button onclick="toggleTheme()" class="theme-btn">🌙</button>
+</nav>
+
+<header class="hero">
+    <div>
+        <h1>Hi, I'm <span>Shreyanka</span></h1>
+        <h2 class="typing"></h2>
+        <p>Frontend Developer | AI Enthusiast | Cybersecurity Learner</p>
+    </div>
+    <img src="images/profile.png" class="hero-img">
+</header>
+
+<section id="about" class="section glass center">
+    <h2>About Me</h2>
+    <br>
+ <p>
+My journey into technology started with curiosity — understanding how websites work and how digital systems connect people across the world. What began as exploration soon became passion.
+<br><br>
+From writing my first lines of code in C to building responsive websites and experimenting with deep learning concepts, every step has strengthened my problem-solving mindset and technical confidence.
+<br><br>
+I believe in continuous learning, creativity, and building solutions that make an impact. My goal is to grow into a developer who not only writes code but creates experiences.
+</p>
+</section>
+
+<section id="internship" class="section glass center">
+    <h2>Internship</h2>
+    <br>
+    <div class="card-box">
+        <h3>Cybersecurity & Ethical Hacking Intern</h3>
+        <p>Campuspe – Remote Internship</p>
+        <p>Worked with Kali Linux, networking tools & penetration testing basics.</p>
+    </div>
+</section>
+<section id="skills" class="section glass center">
+    <h2>Technical Skills</h2>
+    <br>
+    <div class="skills-grid">
+
+        <button class="skill-btn">HTML5</button>
+        <button class="skill-btn">CSS3</button>
+        <button class="skill-btn">JavaScript</button>
+        <button class="skill-btn">Python</button>
+        <button class="skill-btn">C Programming</button>
+        <button class="skill-btn">Git & GitHub</button>
+        <button class="skill-btn">Networking</button>
+        <button class="skill-btn">Kali Linux</button>
+        <button class="skill-btn">Deep Learning</button>
+
+    </div>
+</section>
+
+<section id="certificates" class="section glass center">
+<h2>Certificates</h2> 
+    <br>
+<div class="cert-container">
+<div class="cert-card" onclick="openModal('images/cert1.jpg')">
+<img src="images/cert1.jpg"><p>computer vesion app</p>
+</div>
+<div class="cert-card" onclick="openModal('images/cert2.jpg')">
+<img src="images/cert2.jpg"><p>C programming </p>
+</div>
+<div class="cert-card" onclick="openModal('images/cert3.jpg')">
+<img src="images/cert3.jpg"><p>Deep Learning </p>
+</div>
+</div>
+</section>
+
+<section id="contact" class="section glass center">
+<h2>Contact</h2>
+    <br>
+<p>Email: shreyanka68@gmail.com</p>
+<p>LinkedIn: linkedin.com/in/shreyanka-b-a-12aa35378</p>
+</section>
+
+<!-- Modal -->
+<div id="modal" class="modal">
+    <span class="close-btn" onclick="closeModal()">✖</span>
+    <img id="modal-img">
+</div>
+<script src="script.js"></script>
+</body>
+</html>
