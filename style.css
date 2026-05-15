@@ -114,7 +114,7 @@ background:none;border:none;color:white;font-size:18px;cursor:pointer
 
 /* Hero */
 .hero{
-height:100vh;
+height:80vh;
 display:flex;
 justify-content:space-between;
 align-items:center;
